@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<head><title> Architecture pins </title></head>
+<body>
+<header>
+<a href="index.html">
+<img src="img/aswadh.jpg" alt="MA NOTES" title="The tree of knowledge" >
+</a>
+
+
+</header>
+<hr>
+<nav>
+<table cellspacing="5" cellpadding="5">
+<tr>
+<td><a href="index.html"> home</a></td>
+<td><a href="pindiagram.html">pindiagram</a></td>
+<td><a href="architecture.html">architecture</a></td>
+<td><a href="instructions.html">instructions</a></td>
+<td><a href="pentium processors.html"> pentium processors</a></td>
+</tr>
+</nav>
+</table>
+<hr>
+
+<h2><u> Pin  Description of 8085 Microprocessor</u></h2>
+<p><b>1) Pin no.40(Vcc)& Pin no. 20(Vss):</b>   These pins provide <FONT COLOR="RED">Supply Voltage</FONT> to Microprocessor.<br><br><B>2) Pin no.21-28 (A<SUB>8</SUB>-A<SUB>15</SUB>):</B>
+ This pins has in all 8 address lines and  are used to send <FONT COLOR="RED">Higher Order Address</FONT> along it.<br><br><b>3) Pin no.12-19 (AD<SUB>0</SUB>-AD<SUB>7</SUB>):</B>
+ This pins has 8 address lines & 8 data lines which are multiplexed pins where it is used to send<FONT COLOR="RED"> Lower Order Address</FONT> and data along it.<br>In this pin only data or address can be sent one at a time.Hence,
+<B>ALE</B> Pin comes where it tells us whether data is sent or adress along pin no.12-19.<br><br><b> 4)Pin no.30(ALE):</b> ALE is an abbreviation for<FONT COLOR="RED"> Address Latch Enable</FONT> which is <b> Active high</b> for
+<b>address.</b> It means when ALE pin is <b>high</b>(1) then (AD<SUB>0</SUB>-AD<SUB>7</SUB>)<br> is carrying lower order address along it whereas,when it is <b>low</b>(0)then 12-19 pin is carrying lower order data along it.
+<br><br><b>5) Pin no.32(<SPAN style="text-decoration:overline">RD</span>):</b> This signal indicates that the selected IO/M(External device or memory device)is to be read and is ready for
+accepting data available on <br>data trees.This pin is <b>Active low</b> i.e.when the value of this pin is '0' then <b>'Read'</b> pin is activated.<br><br><b>6) Pin no.31(<span style="text-decoration:overline">WR</SPAN>):</B>
+This signal indicates that the data on the data bus is to be written into selected memory or IO location. Read and Write can be done in IO or <br>memory device.Hence,next pin arises to let us know whether Read or Write Command is applied on IO device or Memory device. <br><br><b> 7)Pin no.34( IO/<SPAN style="text-decoration:overline">M </SPAN>):</b>
+ This signal is used to differentiate between IO and Memory operations i.e.When it is <b>high</b>(1) it indicates IO operation. Whereas, when it<br> is <b>low</b>(0) then it indicates operation on Memory device. 
+ <br><br><b>8) Pin no.39(HOLD):</b> HOLD pin <B>interrupts the microprocessor</B> to inform that external or IO device wants to<B> access its resources</B>.<br><br><b>9) Pin no.35(Ready):</b> Ready pin informs IO/External device that it is <B>ready to give the access</B> to its resources.
+    </p>
+
+
+</body>
